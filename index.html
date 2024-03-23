@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/10127/10127236.png">
+    <title>Guess Weather</title>
+</head>
+<body>
+
+    <h1>Welcome To Weather search site</h1>
+
+    <section class="app">
+        <div>
+            <div class="form">
+                <input type="text" placeholder="Search City" id="input" >
+                <button class="btn" onclick="getWeatherData()">Search</button> 
+                
+            </div>
+            <div id="errorMessage">
+               
+            </div>
+            <ul class="informationList">
+                <li>
+                    <span>City:</span>
+                    <br>
+                    <span id="city"></span>
+                </li>
+
+                <li>
+                    <span>Country:</span>
+                    <br>   
+                    <span id="country"></span>
+                </li>
+
+                <li>
+                    <span>Temp:</span>
+                    <br>
+                   <span id="temp"></span> 
+                </li>
+            </ul>
+        </div>
+        
+            
+    </section>
+     
+
+    <script src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/rsvp/3.0.6/rsvp.js"></script>
+
+</body>
+</html>

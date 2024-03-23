@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: rgb(41, 230, 247) 1px 0 10px;
+
+}
+
+li{
+    list-style: none;
+}
+
+.app{   
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form {
+    padding: 20px 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color:#3A7CA5;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.form > input {
+    border: none;
+    border-radius: 7px;
+    width: 350px;
+    padding:10px 0px 10px 3px;
+    outline: none;
+    transition: all 0.2s ease-out;
+}
+
+
+.form > button {
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    box-shadow: 3px 2px 3px grey;
+}
+
+.app > div {
+    padding: 5px 5px;
+    width: 710px;
+    height: 390px;
+    background-color:#5198c5 ;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.informationList {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.informationList > li {
+    color: #ffffff;
+    margin-top: 5px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    background-color:#205d8c;
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
